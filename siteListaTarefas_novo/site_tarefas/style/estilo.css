@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+#menu ul{
+    margin: 0px;
+    background-color:darkslategrey;
+    list-style: none;
+  }
+  
+  #menu ul li{
+    display: inline;
+  }
+  
+  #menu ul li a{
+    padding: 20px 10px;
+    display: inline-block;
+    color: beige;
+    text-decoration: none;
+    font-family: "TimesNewRoman";
+  
+  }
+  
+  #menu ul li a:hover{
+    color: yellow;
+    background-color: lightslategray;
+    cursor: pointer; 
+  }
+  
+  li{
+    font-size: large;
+  }
+
+  body{
+    margin: 15px;
+    padding: 20px;
+    background-image: url("./../html/imgs/fundo.jpg");
+  }
+  
+  p{
+     text-align:center; 
+     font-family:"TimesNewRoman";
+     font-size: larger;
+     color:lightgoldenrodyellow;
+  }
+
+  #div1, h1, h2, #buttonConfirm{
+    text-align: center;
+  }
+
+  #bt, #removedor{
+    font-family: "TimesNewRoman";
+    border-radius: 5px;
+    font-size: large;
+  }
+
+  #bt:hover, #removedor:hover{
+    background-color: lightslategray;
+    color: lightgoldenrodyellow;
+    cursor: pointer;
+  }
+
+  input{
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h1, h2{
+    font-family: "TimesNewRoman";
+    color: lightgoldenrodyellow;
+  }
+
+  #img1, #gif{
+    text-align: center;
+  }
+
+  #img{
+    border-radius: 15px;
+  }
+
+  #atvs{
+    background-color: lightslategray;
+    width: 600px;
+    height: 1600px;
+    margin-left: 350px;
+    border: solid darkslategrey 5px;
+    border-radius: 15px;
+  }
+
+  #gif1{
+    border-radius: 5px;
+  }
+
+  #removedor{
+    text-align: center;
+    margin-bottom: 20px;;
+  }
+
+  #stg{
+    color: rgb(223, 227, 235);
+    font-family: "TimesNewRoman";
+    font-size: larger;
+    text-align: justify;
+  }
+
+  a:link{
+     color:lightslategray;
+  }
+
+  a:hover{
+    color:lightgoldenrodyellow;
+  }
+  
+  a:visited{
+    color: slateblue;
+  }
+
+  #titulo{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    margin: 15px;
+    font-size:larger;
+}
+
+button{
+   margin-top: 20px;
+   padding: 10px;
+   font-size:larger;
+   color:lightgoldenrodyellow;
+   background-color: lightslategray;
+   cursor: pointer;
+}
+
+form{
+  margin-top: 65px;
+  margin-left: 530px;
+}
+
+#name, #user, #email, #senha, #confirm{
+   margin-right: 800px;;
+}
+
+button:hover, #bt:hover, #removedor:hover{
+   background-color: black;
+}
+
