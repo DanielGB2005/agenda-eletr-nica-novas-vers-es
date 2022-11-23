@@ -1,0 +1,32 @@
+body{
+    background-image: url("./../html/imgs/fundo.jpg");
+}
+
+input{
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size:larger;
+    color:lightgoldenrodyellow;
+    background-color: lightslategray;
+    cursor: pointer;
+ }
+
+ form{
+    margin-top: 65px;
+    margin-left: 530px;
+  }
+  
+  #name, #user, #email, #senha, #confirm{
+     margin-right: 800px;;
+  }
+ 
+  #buttonConfirm{
+    text-align: center;
+  }
