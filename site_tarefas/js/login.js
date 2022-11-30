@@ -1,4 +1,4 @@
-if(document.getElementById("name").value.length<10){
+while(document.getElementById("name").value.length<10){
     document.getElementById("name").style.color = "MediumSeaGreen";
 }
 
