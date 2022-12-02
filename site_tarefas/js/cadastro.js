@@ -10,6 +10,9 @@ function add(){
     novoh2.style.fontFamily = "TimesNewRoman";
     novoh2.innerHTML = ctd;
     document.getElementById("atvs").appendChild(novoh2);
+    const slv = document.createElement("p"); 
+    slv.innerHTML = ctd;
+    document.getElementById("salvas").appendChild(slv);
     const btt = document.createElement("button");
     btt.innerHTML = "Remover a atividade acima"; 
     btt.style.fontFamily = "TimesNewRoman";
@@ -58,4 +61,18 @@ function add(){
 
 function remover(){
     document.getElementById("atvs").innerHTML = "";
+}
+
+cont = 0;
+
+function abrir(){
+    cont = cont + 1;
+    if(cont%2==0){
+        document.getElementById("salvas").style.display = "none";
+    }
+
+    else{
+        document.getElementById("salvas").style.display = "block";   
+    }   
+    
 }

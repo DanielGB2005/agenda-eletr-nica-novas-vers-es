@@ -32,7 +32,7 @@
   }
 
   body{
-    margin: 15px;
+    margin:0px;
     padding: 20px;
     background-color: #161922;
   }
@@ -80,7 +80,7 @@
     border-radius: 15px;
   }
 
-  #atvs{
+  #atvs, #salvas{
     background-color: lightslategray;
     width: 600px;
     height: 1600px;
@@ -146,3 +146,6 @@ button:hover, #bt:hover, #removedor:hover{
    background-color: black;
 }
 
+#salvas{
+  display: none;
+}

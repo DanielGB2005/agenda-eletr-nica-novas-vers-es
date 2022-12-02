@@ -12,19 +12,23 @@
     
     <h2> Efetue seu login para acessar a página de cadastro de tarefas </h2>
 
+    <div> 
+         <button id = "botao" onclick = "mostrar();"> Ver dados de login  </button>
+     </div>   
+
     <form>
         <input id = "name" type = "text" placeholder = "digite seu nome" > 
-        <input type = "text" placeholder = "digite seu e-mail" id = "email"> 
-        <input type = "text" placeholder = "digite seu username" id = "user"> 
-        <input type = "password" placeholder = "digite sua senha" id = "senha"> 
-        <input type = "text" placeholder = "confirme sua senha aqui" id = "confirm"> 
+        <input id = "email" type = "text" placeholder = "digite seu e-mail"> 
+        <input id = "user" type = "text" placeholder = "digite seu username"> 
+        <input id = "senha" type = "password" placeholder = "digite sua senha"> 
+        <input id = "confirm" type = "text" placeholder = "confirme sua senha aqui"> 
 
     </form>  
 
     <div id =  "buttonConfirm"> 
          <button onclick = "checar();"> Entrar </button>
+
     </div>
-    
     <script src = "./../js/login.js">   </script>
 
 </body>

@@ -1,16 +1,3 @@
-while(document.getElementById("name").value.length<10){
-    document.getElementById("name").style.color = "MediumSeaGreen";
-}
-
-
-if(document.getElementById("user").value.length>10){
-    document.getElementById("user").style.color = "MediumSeaGreen";
-}
-
-if(document.getElementById("senha").value == document.getElementById("confirm").value){
-    document.getElementById("confirm").style.color = "MediumSeaGreen";
-}
-
 function checar(){
 
     if(document.getElementById("name").value.length>10 && document.getElementById("user").value.length<10 && document.getElementById("email").value && document.getElementById("senha").value == document.getElementById("confirm").value) { 
@@ -34,3 +21,7 @@ function checar(){
    }
 } 
 
+
+function mostrar(){
+     window.print();
+  }

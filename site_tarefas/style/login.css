@@ -1,6 +1,6 @@
 body{
     background-image: url("./../html/imgs/fundo.jpg");
-}
+}   
 
 input{
     border-radius: 5px;
@@ -9,7 +9,7 @@ input{
     margin-bottom: 20px;
   }
 
-  button{
+button{
     margin-top: 20px;
     padding: 10px;
     font-size:larger;
@@ -17,17 +17,24 @@ input{
     background-color: lightslategray;
     cursor: pointer;
  }
-
- form{
-    margin-top: 65px;
-    margin-left: 530px;
-  }
-  
-  #name, #user, #email, #senha, #confirm{
-     margin-right: 800px;;
-  }
  
-  #buttonConfirm{
+ form{
+   margin-top: 65px;
+   margin-left: 530px;
+ }
+ 
+ #name, #user, #email, #senha, #confirm{
+    margin-right: 800px;;
+ }
+
+ #buttonConfirm{
     text-align: center;
   }
   
+  h2, p{
+    color:beige;
+  }
+
+  #botao{
+    margin-left: 900px;
+  }
